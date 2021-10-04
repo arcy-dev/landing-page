@@ -1,0 +1,65 @@
+html, p, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-dark {
+    background: #1F2937;
+    color: #fff;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-text_logo {
+  font-size: 24px;
+  color: #f9faf8;  
+}
+
+.btn-cta {
+    background: #3882f6;
+    color: #fff;
+}
+ 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color:#1F2937;
+}
+
+.row {
+    display: flex;
+}
+.row .col {
+    flex: 1;
+}
+
+/* Nav */
+navbar {
+    flex-direction: row;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+@media (min-width: 1200px) { 
+    .container {
+        max-width: 1140px;
+    }
+}
